@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qJdJAKjWEfCIVPgdlikBMg" name="Activity Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qP-AsKjWEfCIVPgdlikBMg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_vhXB0KjWEfCIVPgdlikBMg" name="Activity2" node="_PSdTkKjlEfCIVPgdlikBMg _uVtJMKjlEfCIVPgdlikBMg _1trcUKjlEfCIVPgdlikBMg _YGuLEK2yEfCMyM9lpznvlg _eWguIK2yEfCMyM9lpznvlg _grdzUK2yEfCMyM9lpznvlg _qis-MK2yEfCMyM9lpznvlg _vPXhoK2yEfCMyM9lpznvlg _5Ie70K2yEfCMyM9lpznvlg _ILaIcK2zEfCMyM9lpznvlg _LRIjQK2zEfCMyM9lpznvlg" group="_hLoKAKjkEfCIVPgdlikBMg _KNXxcKjXEfCIVPgdlikBMg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_htoHAKjoEfCIVPgdlikBMg" target="_uVtJMKjlEfCIVPgdlikBMg" source="_PSdTkKjlEfCIVPgdlikBMg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RN-xoK2yEfCMyM9lpznvlg" target="_1trcUKjlEfCIVPgdlikBMg" source="_uVtJMKjlEfCIVPgdlikBMg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jNcn4K2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg" target="_YGuLEK2yEfCMyM9lpznvlg" source="_1trcUKjlEfCIVPgdlikBMg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_j6CoIK2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg" target="_eWguIK2yEfCMyM9lpznvlg" source="_YGuLEK2yEfCMyM9lpznvlg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kdJVMK2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg" target="_grdzUK2yEfCMyM9lpznvlg" source="_YGuLEK2yEfCMyM9lpznvlg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tNqIkK2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg" target="_vPXhoK2yEfCMyM9lpznvlg" source="_eWguIK2yEfCMyM9lpznvlg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_35YEYK2yEfCMyM9lpznvlg" target="_qis-MK2yEfCMyM9lpznvlg" source="_vPXhoK2yEfCMyM9lpznvlg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7z288K2yEfCMyM9lpznvlg" target="_5Ie70K2yEfCMyM9lpznvlg" source="_qis-MK2yEfCMyM9lpznvlg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KuizkK2zEfCMyM9lpznvlg" target="_ILaIcK2zEfCMyM9lpznvlg" source="_grdzUK2yEfCMyM9lpznvlg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NIQc8K2zEfCMyM9lpznvlg" target="_LRIjQK2zEfCMyM9lpznvlg" source="_ILaIcK2zEfCMyM9lpznvlg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_KNXxcKjXEfCIVPgdlikBMg" name="USU OFFICER" node="_1trcUKjlEfCIVPgdlikBMg _YGuLEK2yEfCMyM9lpznvlg _eWguIK2yEfCMyM9lpznvlg _grdzUK2yEfCMyM9lpznvlg _vPXhoK2yEfCMyM9lpznvlg" edge="_jNcn4K2yEfCMyM9lpznvlg _j6CoIK2yEfCMyM9lpznvlg _kdJVMK2yEfCMyM9lpznvlg _tNqIkK2yEfCMyM9lpznvlg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_hLoKAKjkEfCIVPgdlikBMg" name="Student" node="_uVtJMKjlEfCIVPgdlikBMg _5Ie70K2yEfCMyM9lpznvlg _LRIjQK2zEfCMyM9lpznvlg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_PSdTkKjlEfCIVPgdlikBMg" name="start" outgoing="_htoHAKjoEfCIVPgdlikBMg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_uVtJMKjlEfCIVPgdlikBMg" name="Apply for membership" incoming="_htoHAKjoEfCIVPgdlikBMg" outgoing="_RN-xoK2yEfCMyM9lpznvlg" inPartition="_hLoKAKjkEfCIVPgdlikBMg">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_HolisKjmEfCIVPgdlikBMg" name="input">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_Homw0KjmEfCIVPgdlikBMg" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1trcUKjlEfCIVPgdlikBMg" name="Review application details" incoming="_RN-xoK2yEfCMyM9lpznvlg" outgoing="_jNcn4K2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_KMxWsKjmEfCIVPgdlikBMg" name="output">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_KMyk0KjmEfCIVPgdlikBMg" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YGuLEK2yEfCMyM9lpznvlg" name="Make sure details are accurate" incoming="_jNcn4K2yEfCMyM9lpznvlg" outgoing="_j6CoIK2yEfCMyM9lpznvlg _kdJVMK2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eWguIK2yEfCMyM9lpznvlg" name="Approve" incoming="_j6CoIK2yEfCMyM9lpznvlg" outgoing="_tNqIkK2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_grdzUK2yEfCMyM9lpznvlg" name="Decline" incoming="_kdJVMK2yEfCMyM9lpznvlg" outgoing="_KuizkK2zEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qis-MK2yEfCMyM9lpznvlg" name="Update database" incoming="_35YEYK2yEfCMyM9lpznvlg" outgoing="_7z288K2yEfCMyM9lpznvlg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vPXhoK2yEfCMyM9lpznvlg" name="New login credentials created" incoming="_tNqIkK2yEfCMyM9lpznvlg" outgoing="_35YEYK2yEfCMyM9lpznvlg" inPartition="_KNXxcKjXEfCIVPgdlikBMg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5Ie70K2yEfCMyM9lpznvlg" name="New membership created" incoming="_7z288K2yEfCMyM9lpznvlg" inPartition="_hLoKAKjkEfCIVPgdlikBMg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ILaIcK2zEfCMyM9lpznvlg" name="Update databse" incoming="_KuizkK2zEfCMyM9lpznvlg" outgoing="_NIQc8K2zEfCMyM9lpznvlg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LRIjQK2zEfCMyM9lpznvlg" name="Reason for rejection" incoming="_NIQc8K2zEfCMyM9lpznvlg" inPartition="_hLoKAKjkEfCIVPgdlikBMg"/>
+  </packagedElement>
+</uml:Model>

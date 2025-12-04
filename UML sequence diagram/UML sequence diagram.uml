@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_of5OwNApEfCoNJPEVuzgTQ" name="UML sequence diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_okGZUNApEfCoNJPEVuzgTQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_q9cPQNApEfCoNJPEVuzgTQ" name="Interaction2">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_FolAoNDkEfCyf93ZUanawA">
+      <body>(Approve)</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_KD5VYNDkEfCyf93ZUanawA">
+      <body>(Terminate)</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_NQDIUNDkEfCyf93ZUanawA">
+      <body>(Update)&#xD;
+</body>
+    </ownedComment>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_1wnd8NApEfCoNJPEVuzgTQ" name="USU officer" coveredBy="_lL0ZcNAqEfCoNJPEVuzgTQ _lMrVEdAqEfCoNJPEVuzgTQ _zwb5cNAqEfCoNJPEVuzgTQ _I-oVgNArEfCoNJPEVuzgTQ _mdrNcNArEfCoNJPEVuzgTQ _rqJ5YNArEfCoNJPEVuzgTQ _16_QANArEfCoNJPEVuzgTQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_3kRz8NApEfCoNJPEVuzgTQ" name="MembershipManagementservice" coveredBy="_lL1nkNAqEfCoNJPEVuzgTQ _lMrVENAqEfCoNJPEVuzgTQ _zwcggNAqEfCoNJPEVuzgTQ _I-nucNArEfCoNJPEVuzgTQ _Xs4SoNArEfCoNJPEVuzgTQ _mdr0gNArEfCoNJPEVuzgTQ _rqJSUNArEfCoNJPEVuzgTQ _w1gj8NArEfCoNJPEVuzgTQ _16_QAdArEfCoNJPEVuzgTQ _lMg9ANAqEfCoNJPEVuzgTQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="__xK84NApEfCoNJPEVuzgTQ" name="Notification Service" coveredBy="_Xs45sNArEfCoNJPEVuzgTQ _w1hLANArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lL0ZcNAqEfCoNJPEVuzgTQ" name="Message4SendEvent" covered="_1wnd8NApEfCoNJPEVuzgTQ" message="_lLykQNAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_E6R50NAsEfCoNJPEVuzgTQ" name="ActionExecutionSpecification32" start="_lL0ZcNAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lL1nkNAqEfCoNJPEVuzgTQ" name="Message4ReceiveEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_lLykQNAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_lMg9ANAqEfCoNJPEVuzgTQ" name="BehaviorExecutionSpecification7" covered="_3kRz8NApEfCoNJPEVuzgTQ" finish="_lMrVENAqEfCoNJPEVuzgTQ" start="_lL1nkNAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lMrVENAqEfCoNJPEVuzgTQ" name="Message9SendEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_lMqG8NAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lMrVEdAqEfCoNJPEVuzgTQ" name="Message9ReceiveEvent" covered="_1wnd8NApEfCoNJPEVuzgTQ" message="_lMqG8NAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zwb5cNAqEfCoNJPEVuzgTQ" name="Message11SendEvent" covered="_1wnd8NApEfCoNJPEVuzgTQ" message="_zwaEQNAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zwcggNAqEfCoNJPEVuzgTQ" name="Message11ReceiveEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_zwaEQNAqEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_I-nucNArEfCoNJPEVuzgTQ" name="Message14SendEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_I-mgUNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_I-oVgNArEfCoNJPEVuzgTQ" name="Message14ReceiveEvent" covered="_1wnd8NApEfCoNJPEVuzgTQ" message="_I-mgUNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Xs4SoNArEfCoNJPEVuzgTQ" name="Message17SendEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_Xs3EgNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Xs45sNArEfCoNJPEVuzgTQ" name="Message17ReceiveEvent" covered="__xK84NApEfCoNJPEVuzgTQ" message="_Xs3EgNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mdrNcNArEfCoNJPEVuzgTQ" name="Message20SendEvent" covered="_1wnd8NApEfCoNJPEVuzgTQ" message="_mdpYQNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mdr0gNArEfCoNJPEVuzgTQ" name="Message20ReceiveEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_mdpYQNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rqJSUNArEfCoNJPEVuzgTQ" name="Message23SendEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_rqIEMNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rqJ5YNArEfCoNJPEVuzgTQ" name="Message23ReceiveEvent" covered="_1wnd8NApEfCoNJPEVuzgTQ" message="_rqIEMNArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_16_QANArEfCoNJPEVuzgTQ" name="Message29SendEvent" covered="_1wnd8NApEfCoNJPEVuzgTQ" message="_16-B4NArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_w1gj8NArEfCoNJPEVuzgTQ" name="Message26SendEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_w1fV0NArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_16_QAdArEfCoNJPEVuzgTQ" name="Message29ReceiveEvent" covered="_3kRz8NApEfCoNJPEVuzgTQ" message="_16-B4NArEfCoNJPEVuzgTQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_w1hLANArEfCoNJPEVuzgTQ" name="Message26ReceiveEvent" covered="__xK84NApEfCoNJPEVuzgTQ" message="_w1fV0NArEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_lLykQNAqEfCoNJPEVuzgTQ" name="SubmitMembershipApproval(StudentData)" receiveEvent="_lL1nkNAqEfCoNJPEVuzgTQ" sendEvent="_lL0ZcNAqEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_lMqG8NAqEfCoNJPEVuzgTQ" name="StoreMembership(StudentData)" messageSort="reply" receiveEvent="_lMrVEdAqEfCoNJPEVuzgTQ" sendEvent="_lMrVENAqEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_zwaEQNAqEfCoNJPEVuzgTQ" name="UpdateMembership(UpdateData)" messageSort="asynchCall" receiveEvent="_zwcggNAqEfCoNJPEVuzgTQ" sendEvent="_zwb5cNAqEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_I-mgUNArEfCoNJPEVuzgTQ" name="UpdatedMembership(NewData" messageSort="reply" receiveEvent="_I-oVgNArEfCoNJPEVuzgTQ" sendEvent="_I-nucNArEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_Xs3EgNArEfCoNJPEVuzgTQ" name="NotifyStudent(updated)" messageSort="asynchCall" receiveEvent="_Xs45sNArEfCoNJPEVuzgTQ" sendEvent="_Xs4SoNArEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_mdpYQNArEfCoNJPEVuzgTQ" name="TerminateMembership(MemberID)" messageSort="asynchCall" receiveEvent="_mdr0gNArEfCoNJPEVuzgTQ" sendEvent="_mdrNcNArEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_rqIEMNArEfCoNJPEVuzgTQ" name="RemoveMembership(MemberID)" messageSort="reply" receiveEvent="_rqJ5YNArEfCoNJPEVuzgTQ" sendEvent="_rqJSUNArEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_w1fV0NArEfCoNJPEVuzgTQ" name="Terminated(Notification)" messageSort="reply" receiveEvent="_w1hLANArEfCoNJPEVuzgTQ" sendEvent="_w1gj8NArEfCoNJPEVuzgTQ"/>
+    <message xmi:type="uml:Message" xmi:id="_16-B4NArEfCoNJPEVuzgTQ" name="NotifyStudent(Student)" messageSort="asynchCall" receiveEvent="_16_QAdArEfCoNJPEVuzgTQ" sendEvent="_16_QANArEfCoNJPEVuzgTQ"/>
+  </packagedElement>
+</uml:Model>

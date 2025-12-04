@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_D1FzML7wEfCPJ_1yJpXZWQ" name="component diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_D6-_0L7wEfCPJ_1yJpXZWQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_vmAOQL7wEfCPJ_1yJpXZWQ" name="USU OPERATIONS">
+    <packagedElement xmi:type="uml:Component" xmi:id="_dfQ14L7xEfCPJ_1yJpXZWQ" name="USU operations system"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_fYdMIL7xEfCPJ_1yJpXZWQ" name="other subsystems"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_iL0EkL7xEfCPJ_1yJpXZWQ" name="infastructure"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HAMLUL7yEfCPJ_1yJpXZWQ" name="Auth and identity service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_IQcDgL74EfCPJ_1yJpXZWQ" client="_HAMLUL7yEfCPJ_1yJpXZWQ" supplier="_Glm5YL74EfCPJ_1yJpXZWQ" contract="_Glm5YL74EfCPJ_1yJpXZWQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_J-d6UL7yEfCPJ_1yJpXZWQ" name="Tenant management service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_gewQYL7yEfCPJ_1yJpXZWQ" name="Union management service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_IlC3AL73EfCPJ_1yJpXZWQ" client="_gewQYL7yEfCPJ_1yJpXZWQ" supplier="_dJyi4L72EfCPJ_1yJpXZWQ" contract="_dJyi4L72EfCPJ_1yJpXZWQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_l4kNsL7yEfCPJ_1yJpXZWQ" name="Event management service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_UeVZML73EfCPJ_1yJpXZWQ" client="_l4kNsL7yEfCPJ_1yJpXZWQ" supplier="_QvGHUL73EfCPJ_1yJpXZWQ" contract="_QvGHUL73EfCPJ_1yJpXZWQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xecrsL7yEfCPJ_1yJpXZWQ" name="society exchange service"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ySSjcL7yEfCPJ_1yJpXZWQ" name="DataType9"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_A5I4EL7zEfCPJ_1yJpXZWQ" name="Workflow approvals"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_FdHZkL7zEfCPJ_1yJpXZWQ" name="notifications">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_27l3kL73EfCPJ_1yJpXZWQ" client="_FdHZkL7zEfCPJ_1yJpXZWQ" supplier="_0m5REL73EfCPJ_1yJpXZWQ" contract="_0m5REL73EfCPJ_1yJpXZWQ"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_NWD5gL74EfCPJ_1yJpXZWQ" client="_FdHZkL7zEfCPJ_1yJpXZWQ" supplier="_LgYxUL74EfCPJ_1yJpXZWQ" contract="_LgYxUL74EfCPJ_1yJpXZWQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_YoY7oL7zEfCPJ_1yJpXZWQ" name="reports">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_N2V8EL74EfCPJ_1yJpXZWQ" client="_YoY7oL7zEfCPJ_1yJpXZWQ" supplier="_LgYxUL74EfCPJ_1yJpXZWQ" contract="_LgYxUL74EfCPJ_1yJpXZWQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_bZqJYL7zEfCPJ_1yJpXZWQ" name="media service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_d8Oz0L7zEfCPJ_1yJpXZWQ" name="admin console"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_epj-cL70EfCPJ_1yJpXZWQ" name="event broker"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_hjn70L70EfCPJ_1yJpXZWQ" name="Search index"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_pxbqwL70EfCPJ_1yJpXZWQ" name="payment gateway"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_u7JWkL70EfCPJ_1yJpXZWQ" name="email provider"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_x8LeoL70EfCPJ_1yJpXZWQ" name="logging and monitoring"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_dJyi4L72EfCPJ_1yJpXZWQ" name="Union management "/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_QvGHUL73EfCPJ_1yJpXZWQ" name="USUEventAdmin"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_0m5REL73EfCPJ_1yJpXZWQ" name="Notification Broadcast"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Glm5YL74EfCPJ_1yJpXZWQ" name="Authentification service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LgYxUL74EfCPJ_1yJpXZWQ" name="Send notifications"/>
+</uml:Model>
